@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  basePath: '/3d-portfolio',
+  assetPrefix: '/3d-portfolio/',
   output: 'export',
   reactStrictMode: false,
   eslint: {
