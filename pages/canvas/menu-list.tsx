@@ -23,7 +23,7 @@ interface MenuListProps {
   onMenuClick?: (e: ThreeEvent<MouseEvent>, path: string) => void
 }
 
-const FONT_PATH = '/fonts/Orbitron_Regular.json'
+const FONT_PATH = `/3d-portfolio/fonts/Orbitron_Regular.json`
 const POSITION_Z = 0.3
 const TEXT_COLOR = '#393937'
 const menuList: Menu[] = [

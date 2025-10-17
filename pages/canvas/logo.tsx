@@ -13,7 +13,7 @@ const getRandomColor = () => {
 }
 
 const Logo = (props: LogoProps) => {
-  const svgData = useLoader(SVGLoader, '/logo.svg')
+  const svgData = useLoader(SVGLoader, `/3d-portfolio/logo.svg`)
   const [currentColor, setCurrentColor] = useState(getRandomColor())
   const [targetColor, setTargetColor] = useState(getRandomColor())
   const [scale, setScale] = useState(0)

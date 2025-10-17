@@ -4,7 +4,7 @@ import GradientShaderMaterial from '@/components/gradient-shader-material'
 import { forwardRef, Ref, useImperativeHandle, useState } from 'react'
 import useIsMobile from '@/components/use-is-mobile'
 
-const FONT_PATH = '/fonts/Orbitron_Regular.json'
+const FONT_PATH = `/3d-portfolio/fonts/Orbitron_Regular.json`
 
 const HelloText = forwardRef((props, ref: Ref<unknown> | undefined) => {
   const [scale, setScale] = useState(0)
