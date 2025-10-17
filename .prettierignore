@@ -1,0 +1,12 @@
+.github
+.next
+.husky
+.prettierignore
+*.png
+*.jpg
+*.jpeg
+*.fbx
+*.svg
+*.glb
+*.ttf
+.env

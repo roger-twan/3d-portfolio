@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Orbitron;
+    font-weight: 400;
+    src: url(/fonts/Orbitron_Regular.ttf) format("tff");
+  }
+}
